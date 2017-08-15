@@ -1,0 +1,55 @@
+body {
+    background-color: #151514;
+    font-family: 'Roboto', sans-serif;
+    color: #727272
+}
+h1 {
+    color: #fff;
+    font-size: 32px
+}
+#intro {
+    border-bottom: 1px solid #222;
+    padding: 15px 0 25px 0
+}
+#intro a {
+    font-weight: 300
+}
+#about-me {
+    background-color: #101010;
+    min-height: 350px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #222
+}
+#about-me h1 {
+    margin: 0
+}
+#contact {
+    background-color: #101010;
+    min-height: 350px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #222
+}
+#contact h1 {
+    margin: 0
+}
+.card {
+    background-color: #151514;
+    border-left: 5px solid #ffb204;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 25px;
+    -moz-box-shadow: 0 0px 9px 1px rgba(14, 14, 14, 0.5);
+    -webkit-box-shadow: 0 0px 9px 1px rgba(14, 14, 14, 0.5);
+    box-shadow: 0 0px 9px 1px rgba(14, 14, 14, 0.5)
+}
+.card p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8e8e8e
+}
